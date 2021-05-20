@@ -12,3 +12,12 @@
     cursor: pointer;
 
 }
+
+.conteiner {
+    text-align: justify;
+    margin:auto;
+    padding: 20px;
+    width: 1200px;
+    height: auto;
+    
+}
