@@ -20,3 +20,4 @@ var przyciski = document.querySelectorAll('button');
 for (var i = 0; i < przyciski.length; i++) {
     przyciski[i].addEventListener('click', stworzParagraf);
 }
+
