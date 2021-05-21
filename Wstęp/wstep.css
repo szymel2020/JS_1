@@ -17,7 +17,24 @@
     text-align: justify;
     margin:auto;
     padding: 20px;
-    width: 1200px;
+    width: 50%;
     height: auto;
     
+}
+
+textarea {
+    padding: 10px;
+    width: 100%;
+}
+
+.pole1 {
+    height: 130px;
+}
+
+.pole2 {
+    height: 170px;
+}
+
+.button1 {
+    background:rgb(173, 236, 153);
 }

@@ -16,12 +16,34 @@
         </ul> 
         <h4>Przykład zastosowania JavaScript - zmiana wartości 'button'</h4>
         <p class="day">Today is: ?</p>
+        </br>
+        <textarea class="pole1">var day = document.querySelector(".day");
+
+day.addEventListener('click', putDay);
+
+function putDay() {
+    var nameOfDay = prompt('Please put day, which you whish');
+    day.textContent = 'Today is:' + nameOfDay;
+}</textarea>
     </br>
     </br>JavaScript jest językiem interpretowanym - kod jest wykonywany od góry do dołu i wynik jest zwracany od razu. Jest on dołączany do strony HTML za pomocą elementu /script/.
     </br>
     </br>
     <h4>Tworzenie paragrafu za pomocą 'button'</h4>
-    <button>click</button>
+    <textarea class="pole2">function stworzParagraf() {
+    var para = document.createElement('p');
+    para.textContent = 'Kliknąłeś przycisk';
+    document.body.appendChild(para);
+}
+
+var przyciski = document.querySelectorAll('button');
+
+for (var i = 0; i < przyciski.length; i++) {
+    przyciski[i].addEventListener('click', stworzParagraf);
+}</textarea>
+</br>
+    </br>
+    <button class="button1">click</button>
     </div>
 
     <script src="wstep.js"></script>
