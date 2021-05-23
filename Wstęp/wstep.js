@@ -21,4 +21,6 @@ for (var i = 0; i < przyciski.length; i++) {
     przyciski[i].addEventListener('click', stworzParagraf);
 }
 
+// funkcja ostrzegania
+
 alert("hello Word in JavaScript");
