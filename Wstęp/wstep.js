@@ -21,6 +21,14 @@ for (var i = 0; i < przyciski.length; i++) {
     przyciski[i].addEventListener('click', stworzParagraf);
 }
 
+// zmienne
+
+let exampleOne = 5;
+
+var exampleOne = monday;
+
+const exampleTwo = friday;
+
 // funkcja ostrzegania
 
 alert("hello Word in JavaScript");
