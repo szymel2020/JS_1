@@ -25,9 +25,9 @@ for (var i = 0; i < przyciski.length; i++) {
 
 let exampleOne = 5;
 
-var exampleOne = monday;
+var examplefive = 'monday';
 
-const exampleTwo = friday;
+const exampleTwo = 'friday';
 
 // funkcja ostrzegania
 
@@ -38,3 +38,34 @@ alert("hello Word in JavaScript");
 function przyklad() {
     /*kod funkcji*/
 }
+
+// konkatenacja
+
+var seven = 'this';
+
+var ten = ' is a book'
+
+var plusNumber = seven + ten;
+
+console.log(plusNumber);
+
+// operatory: + ; - ; * ; / ;itp.
+
+// skróty operatorów
+
+var example101 = 'word';
+
+example101 += ' next';
+
+// zamiast
+
+example101 = example101 + ' next';
+
+console.log(example101);
+
+// operatory porównania
+
+=== ścisła równość  5 === 2 + 3 //true
+!== brak równości 5 !== 2 + 3 //false
+< mniej niż  6 < 10 //true
+> więcej niż 6 > 10 //false 
