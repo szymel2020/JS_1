@@ -32,3 +32,9 @@ const exampleTwo = friday;
 // funkcja ostrzegania
 
 alert("hello Word in JavaScript");
+
+// funkcja
+
+function przyklad() {
+    /*kod funkcji*/
+}
