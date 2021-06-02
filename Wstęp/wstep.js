@@ -68,4 +68,7 @@ console.log(example101);
 === ścisła równość  5 === 2 + 3 //true
 !== brak równości 5 !== 2 + 3 //false
 < mniej niż  6 < 10 //true
-> więcej niż 6 > 10 //false 
+    > więcej niż 6 > 10 //false 
+
+document.write(3);
+
