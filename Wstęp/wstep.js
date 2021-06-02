@@ -72,3 +72,8 @@ console.log(example101);
 
 document.write(3);
 
+
+
+// detektor zdarzenia
+
+guessSubmit.addEventListener('clik', checkGuess);

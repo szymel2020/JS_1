@@ -152,7 +152,13 @@ Operator matematyczny "+" łączy ze sobą "cyfrę" i "stringa". Ponizej mamy te
 5 * "wyraz1"
 NaN</textarea>
 <h4>Zdarzenia</h4>
-Zdarzenia są to rzeczy , które dzieją się w przeglądarce np: kliknięcie przycisku, ruch myszki, ładowanie strony, odtwarzanie video - w odpowiedzi na które możemy uruchomić jakieś konkretne bloki kodu. 
+Zdarzenia są to rzeczy , które dzieją się w przeglądarce np: kliknięcie przycisku, ruch myszki, ładowanie strony, odtwarzanie video - w odpowiedzi na które możemy uruchomić jakieś konkretne bloki kodu.</br><b>Detektorami zdarzeń</b> nazywamy konstrukcje, które nasłuchują zachodzące zdarzenia. Natomiast <b>programami obsługi zdarzeń</b> nazywamy bloki kodu które są uruchamiane w odpowiedzi na wywołanie z d a r z e n i a.
+</br>
+</br>
+<textarea>guessSubmit.addEventListener('clik', checkGuess);</textarea>
+</br>
+</br>
+Do przycisku 'guessSubmt' dodajemy detektor zdarzeń <b>addEventListener()</b>. Metoda ta przyjmuje dwie wartości wyjściowe. Typ zdarzenia którego nasłuchujemy jest 'click', po wystąpieniu tego zdarzenia uruchamiana jest druga wartoś zapisana w tym detektorze (w tym przypadku jest to funkcja checkGuess() ).
     </div>
 
     <script src="wstep.js"></script>
