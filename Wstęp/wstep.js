@@ -1,4 +1,4 @@
-var day = document.querySelector(".day");
+var day = document.querySelector('p');
 
 day.addEventListener('click', putDay);
 
@@ -12,6 +12,7 @@ function putDay() {
 function stworzParagraf() {
     var para = document.createElement('p');
     para.textContent = 'Kliknąłeś przycisk';
+    para.style.backgroundColor = 'blue';
     document.body.appendChild(para);
 }
 
@@ -23,57 +24,54 @@ for (var i = 0; i < przyciski.length; i++) {
 
 // zmienne
 
-let exampleOne = 5;
+/* let exampleOne = 5;
 
 var examplefive = 'monday';
 
-const exampleTwo = 'friday';
+const exampleTwo = 'friday'; */
 
 // funkcja ostrzegania
 
-alert("hello Word in JavaScript");
+//alert("hello Word in JavaScript");
 
 // funkcja
 
-function przyklad() {
-    /*kod funkcji*/
-}
 
 // konkatenacja
 
-var seven = 'this';
+/* var seven = 'this';
 
 var ten = ' is a book'
 
 var plusNumber = seven + ten;
 
-console.log(plusNumber);
+console.log(plusNumber); */
 
 // operatory: + ; - ; * ; / ;itp.
 
 // skróty operatorów
 
-var example101 = 'word';
+/* var example101 = 'word';
 
-example101 += ' next';
+example101 += ' next'; */
 
 // zamiast
 
-example101 = example101 + ' next';
+/* example101 = example101 + ' next';
 
-console.log(example101);
+console.log(example101); */
 
 // operatory porównania
 
-=== ścisła równość  5 === 2 + 3 //true
+/* === ścisła równość  5 === 2 + 3 //true
 !== brak równości 5 !== 2 + 3 //false
 < mniej niż  6 < 10 //true
     > więcej niż 6 > 10 //false 
 
-document.write(3);
+document.write(3); */
 
 
 
 // detektor zdarzenia
 
-guessSubmit.addEventListener('clik', checkGuess);
+//guessSubmit.addEventListener('clik', checkGuess);

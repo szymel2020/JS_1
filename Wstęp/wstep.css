@@ -22,6 +22,11 @@
     
 }
 
+.newPrf {
+    float: left;
+    background-color:darkolivegreen;
+}
+
 h1 {
     text-align: center;
     font-family:'Courier New', Courier, monospace;
