@@ -13,6 +13,7 @@ function stworzParagraf() {
     var para = document.createElement('p');
     para.textContent = 'Kliknąłeś przycisk';
     para.style.backgroundColor = 'blue';
+    
     document.body.appendChild(para);
 }
 
@@ -75,3 +76,6 @@ document.write(3); */
 // detektor zdarzenia
 
 //guessSubmit.addEventListener('clik', checkGuess);
+
+for (let i = 1; i < 21; i++)
+    console.log(i);
