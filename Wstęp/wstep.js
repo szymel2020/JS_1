@@ -77,5 +77,5 @@ document.write(3); */
 
 //guessSubmit.addEventListener('clik', checkGuess);
 
-for (let i = 1; i < 21; i++)
+for (let i = 1; i < 21; i+2)
     console.log(i);
