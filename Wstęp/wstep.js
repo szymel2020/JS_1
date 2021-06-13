@@ -79,3 +79,12 @@ document.write(3); */
 
 /* for (let i = 1; i < 21; i+2)
     console.log(i); */
+
+    // if - instrukcja warunkowa
+
+/* let myNum = 5;
+if (myNum > 6) {
+        document.write(" equal to 6")
+} else {
+    document.write("myNum equal to 5");
+}; */
