@@ -91,7 +91,7 @@ if (myNum > 6) {
 
 // if
 
-var myAge = 19;
+/* var myAge = 19;
 
 if (myAge > 30) {
 
@@ -102,7 +102,7 @@ if (myAge > 30) {
 } else if (myAge > 10) {
 
     document.write("you are not over 10")
-}
+} */
 
 
 
