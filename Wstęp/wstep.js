@@ -114,6 +114,15 @@ if (myAge >= 18 && myAge <= 30) {
     document.write("you aint coming");
 } */
 
+// pętla while
+
+/* var agee = 4;
+
+while (agee < 8) {
+    document.write("your age is less than 8");
+    agee++;
+}
+document.write("pętla"); */
 
 
 
