@@ -171,6 +171,8 @@ Numery 1 do 20 zostały wydrukowane w konsoli.</br>Pętla przyjmuje trzy wartoś
 </br>
 </br>
 Kolejny przykład pętli 'for', która po dojściu do pewnej liczby jest 'łamana(break)' i wyświetla przykładowy komentarz.
+</br>
+</br>
 <textarea class="pole2">
     for (i = 0; i < 10; i++) {
 
@@ -178,6 +180,24 @@ Kolejny przykład pętli 'for', która po dojściu do pewnej liczby jest 'łaman
 
     if (i === 7) {
 
+        break;
+    }
+}
+console.log("i break loop");
+</textarea>
+</br>
+</br>
+Kolejna funkcja pętli 'for' sprawia że wybrane liczby są pominięte i pętla jes kontunuowana, jest to funkcja"continue", która przepuszcza działanie funkcji dalej nie polazując wskazanych liczb.
+</br>
+</br>
+<textarea class="pole2">
+    for (i = 0; i < 10; i++) {
+    if (i === 3 || i === 5) {
+        continue;
+    }
+    console.log(i);
+
+    if (i === 7) {
         break;
     }
 }
