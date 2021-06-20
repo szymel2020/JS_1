@@ -126,7 +126,7 @@ document.write("pętla"); */
 
 // pętla for
 
-for (i = 0; i < 10; i++) {
+/* for (i = 0; i < 10; i++) {
     if (i === 3 || i === 5) {
         continue;
     }
@@ -136,9 +136,16 @@ for (i = 0; i < 10; i++) {
         break;
     }
 }
-console.log("i break loop");
+console.log("i break loop"); */
 
+// funkcje
 
+function srednia(a, b) {
+    var taSrednia = (a + b) / 2;
+
+    console.log(taSrednia);
+}
+srednia(34,7);
 
 
 
