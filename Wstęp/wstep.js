@@ -140,12 +140,14 @@ console.log("i break loop"); */
 
 // funkcje
 
-function srednia(a, b) {
+function srednia(a,b) {
+    
     var taSrednia = (a + b) / 2;
-
-    console.log(taSrednia);
+    return taSrednia;
 }
-srednia(34,7);
+var tenWynik = document.getElementById('tenWynik');
+tenWynik.value = srednia(8,3);
+
 
 
 

@@ -112,7 +112,7 @@ const exampleTwo = friday;</textarea>
 </br>
 <textarea class="pole6">
     //poniższa funkcja wylicza średnią i przesyła ją do consoli
-    
+
     function srednia(a, b) {
 
     var taSrednia = (a + b) / 2;
@@ -121,6 +121,23 @@ const exampleTwo = friday;</textarea>
 }
 srednia(34,7);
 </textarea>
+</br>
+</br>
+Poniższa funkcja wylicza średnią z dwóch liczb i przesyła ją do tagu 'input'.
+</br>
+</br>
+<textarea class="pole6">
+    function srednia(a,b) {
+    
+    var taSrednia = (a + b) / 2;
+    return taSrednia;
+}
+
+var tenWynik = document.getElementById('tenWynik');
+
+tenWynik.value = srednia(8,3);
+</textarea>
+<input id="tenWynik">
 <h4>Operatory</h4>
 Operatory w JavaScript wykonują obliczenia matematyczne oraz łączą ze sobą ciągi znaków i inne tego typu rzeczy.
 </br>KONKATENACJA - w programowaniu to łączenie ze sobą ciągów tekstowych za pomocą operatora "+". 
@@ -321,6 +338,8 @@ while (agee < 8) {
 }
 document.write("pętla");
 </textarea>
+
+
     </div>
 
     <script src="wstep.js"></script>
